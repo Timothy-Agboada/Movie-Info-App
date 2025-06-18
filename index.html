@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>MovieFinder</h1>
+            <div class="search-wrapper">
+                <div class="search-container">
+                    <input type="text" id="movieSearchInput" placeholder="Enter a movie title...">
+                    <button id="searchBtn">Search</button>
+                </div>
+                <div id="suggestionsContainer" class="suggestions-container"></div>
+            </div>
+        </header>
+
+        <main id="resultContainer">
+            <!-- Initial message or movie info will be displayed here -->
+            <div class="intro-message">
+                <h2>Find Information About Your Favorite Movies</h2>
+                <p>Just type a movie title in the search bar above and click "Search".</p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
